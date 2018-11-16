@@ -1,0 +1,197 @@
+.followrs {
+  display: inline-flex;
+  margin-right: 10px;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+.userMain .userBlock .followrs .number {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+.shadow-depth-4 {
+  -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.profileInfo {
+  padding-left: 0;
+}
+.profileDealBox {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 0 10px 12px;
+  max-width: 170px;
+  margin-top: 5px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(69, 91, 99, 0.08);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(69, 91, 99, 0.08);
+  box-shadow: 0px 3px 6px 0px rgba(69, 91, 99, 0.08);
+}
+.profileDealBoxInner {
+  width: 50%;
+  display: inline-block;
+}
+.profileDealBoxInner:first-child {
+  border-right: 1px solid #f4f4f6;
+}
+.profileDealBoxInner h4 {
+  font-size: 19px;
+  color: #454f63;
+  font-weight: 600;
+  margin: 10px 0 0px;
+}
+.profileDealBoxInner span {
+  color: #78849e;
+  font-size: 12px;
+  font-weight: 400;
+}
+.timeLineTitle {
+  font-size: 19px;
+  color: #163d56;
+  margin: 10px 0 0;
+  font-weight: 600;
+}
+.profileRatingProgress {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profileRatingProgress li {
+  display: inline-block;
+  position: relative;
+  padding-right: 38px;
+  text-align: center;
+}
+.profileRatingProgress li:last-child {
+  padding-right: 0;
+}
+.profileRatingProgress li span {
+  display: block;
+  font-size: 10px;
+  color: #a2a2a2;
+  padding-top: 5px;
+  font-weight: 600;
+}
+.profileRatingProgress .progress {
+  position: absolute;
+  width: 40px;
+  border-radius: 0;
+  box-shadow: none;
+  top: 30%;
+  right: -2px;
+  height: 1px;
+  background-color: #dcdcdc;
+}
+.profileRatingProgress .progress-bar,
+.timeLineProgress .progress-bar {
+  background-color: #163d56;
+  box-shadow: none;
+}
+.timeLineProgress {
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  height: 10px;
+  margin: 15px 0 0;
+  box-shadow: none;
+}
+.timeLineProgress .progress-bar {
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+.hoursMinutesBox {
+  margin: 0 auto;
+  box-shadow: none;
+}
+.hoursMinutesBox span {
+  color: #454f63;
+}
+.timeHistory {
+  margin: 10px 0 30px;
+}
+.timeHistory img {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+.timeHistory span {
+  font-size: 12px;
+  color: #454f63;
+}
+.aboutUs {
+  padding-bottom: 10px;
+}
+.aboutUs .heading {
+  margin-bottom: 30px;
+}
+p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 22px;
+}
+.mar-t30 {
+  margin-top: 30px;
+}
+.mar-b50 {
+  margin-bottom: 50px;
+}
+.userSkilInner {
+  margin-bottom: 20px;
+}
+
+.userSkilInner .heading {
+  margin-bottom: 12px;
+}
+.messageIcon {
+  margin-top: 20px;
+}
+.messageIcon img {
+  margin-right: 10px;
+}
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+  box-shadow: none;
+  background: none;
+}
+.row-custom-2 {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
+.sendingButtons button {
+  margin: 0 12px;
+}
+
+@media (max-width: 320px) {
+  .sendingButtons button {
+    margin: 0 8px;
+  }
+}
+@media (max-width: 375px) {
+  .profileRatingProgress li {
+    padding-right: 32px;
+  }
+  .sendingButtons button,
+  .messageIcon > button {
+    width: 128px;
+  }
+  .profileRatingProgress .progress {
+    width: 34px;
+  }
+}
+@media (max-width: 320px) {
+  .profileRatingProgress li {
+    padding-right: 24px;
+  }
+  .profileRatingProgress .progress {
+    width: 28px;
+  }
+}

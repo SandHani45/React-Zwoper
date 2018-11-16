@@ -1,0 +1,29 @@
+.searchBox{
+    margin: 0 20px 20px; 
+    border:1px solid rgba(149,148,148,0.3);
+    border-radius: 100px;
+    padding: 0 10px 0 20px; 
+}
+.searchBox .form-control{
+    border: none;
+    font-size: 14px;
+    color: #C3BCBC;
+    font-weight: 300;
+    box-shadow: none;
+}
+.searchBox .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #C3BCBC;
+  }
+  .searchBox .form-control::-moz-placeholder { /* Firefox 19+ */
+    color: #C3BCBC;
+  }
+  .searchBox .form-control:-ms-input-placeholder { /* IE 10+ */
+    color: #C3BCBC;
+  }
+  .searchBox .form-control:-moz-placeholder { /* Firefox 18- */
+    color: #C3BCBC;
+  }
+  .form-control:focus{
+      box-shadow: none;
+      border: none;
+  }

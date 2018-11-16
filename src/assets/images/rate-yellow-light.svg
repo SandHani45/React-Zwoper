@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.888 15.888">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.281;
+      }
+
+      .cls-2 {
+        fill: rgba(255,209,69,0.99);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Bildmaterial_7" data-name="Bildmaterial 7" class="cls-1" transform="translate(13.944 13.944)">
+    <g id="Bildmaterial_7-2" data-name="Bildmaterial 7" transform="translate(-13.944 -13.944)">
+      <circle id="Ellipse_90" data-name="Ellipse 90" class="cls-2" cx="7.944" cy="7.944" r="7.944"/>
+      <path id="Path_6088" data-name="Path 6088" class="cls-3" d="M25.269,23.037l-2.2-1.567a.188.188,0,0,0-.3.154v.7H20.788l2.578-3.1a2.83,2.83,0,0,0,.361-.56,1.372,1.372,0,0,0,.147-.607,1.457,1.457,0,0,0-.147-.66,1.649,1.649,0,0,0-.391-.506H18.851v-.827l-2.495,1.78a.188.188,0,0,0,0,.308l2.2,1.567a.188.188,0,0,0,.3-.154V18.9H20.71L18.07,22a2.82,2.82,0,0,0-.361.56,1.37,1.37,0,0,0-.147.607,1.454,1.454,0,0,0,.147.66,1.64,1.64,0,0,0,.391.507h4.673v.789l2.495-1.78a.188.188,0,0,0,0-.31Z" transform="translate(-12.868 -12.702)"/>
+    </g>
+  </g>
+</svg>

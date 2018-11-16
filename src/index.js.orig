@@ -1,0 +1,69 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// import UiCollapsable from './components/UiCollapsable'
+//import App from './container/TutorialScreen/ToHome';
+import HomeHeader from './container/home/homeHeader';
+// import App from './container/auth/primaScreen';
+//import App from './container/onBoard';
+<<<<<<< HEAD
+import Splash from './container/Tutorial_Signin/Splash';
+import ScreenOne from './container/Tutorial_Signin/ScreenOne';
+import ScreenTwo from './container/Tutorial_Signin/ScreenTwo';
+=======
+// import Splash from './container/TutorialSignin/Splash';
+// import ScreenOne from './container/TutorialSignin/ScreenOne';
+// import ScreenTwo from './container/TutorialSignin/ScreenTwo';
+import CurrentUser from './container/ProfileScreen/CurrentUser/';
+import OtherUser from './container/ProfileScreen/OtherUser/';
+
+>>>>>>> origin/user_profile
+import registerServiceWorker from './registerServiceWorker';
+
+//** Register and Login */
+import {
+  Register_Name,
+  Main_Login,
+  Register_Address,
+} from './container/Auth/Register';
+
+import { YourTalents } from './container/OnBoarding';
+
+//*** */
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+import './index.scss';
+import { screen } from './theme/global';
+
+const RouterApp = () => {
+  console.log(Register_Name);
+  return (
+    <Router>
+      <div>
+<<<<<<< HEAD
+        <div className="mobile-view">
+          <Route exact path="/" component={YourTalents} />
+          <Route path="/screen_one" component={ScreenOne} />
+          <Route path="/screen_two" component={ScreenTwo} />
+          <Route path="/HomeHeader" component={HomeHeader} />
+=======
+        <div className='mobile-view'>
+          {/*<Route exact path="/" component={Splash} />*/}
+          {/*<Route path="/screen_one" component={ScreenOne} />*/}
+          {/*<Route path="/screen_two" component={ScreenTwo} />*/}
+          {/*<Route path="/HomeHeader" component={HomeHeader} />*/}
+          {/*shailesh */}
+          <Route exact path="/" component={CurrentUser} />
+          <Route exact path="/profile" component={OtherUser} />
+>>>>>>> origin/user_profile
+        </div>
+        <div className="overflow-mobile-view">
+          <h1>{'Sorry the Application is not supported for this Screen'}</h1>
+        </div>
+      </div>
+    </Router>
+  );
+};
+
+ReactDOM.render(<RouterApp />, document.getElementById('root'));
+registerServiceWorker();

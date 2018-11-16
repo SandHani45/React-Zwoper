@@ -1,0 +1,103 @@
+$theamColor: #59be6c;
+$shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$font-size: 18px;
+$colorWhite: #fff;
+$font-family: 'ubuntu', 'Lucida Grande', sans-serif;
+$gray: gray;
+$shadowGray: #80808078;
+$homeBackgroundColor: #bed0c1;
+
+.slick-dots > .slick-active > div {
+  border-radius: 50%;
+  border: 2px solid white;
+  background: black;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.name-info {
+  font-size: 20px;
+  font-weight: bold;
+  color: $colorWhite;
+}
+
+.name-info-row {
+  margin: 10px;
+}
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.input-container-card {
+  box-shadow: $shadow;
+  transition: 0.3s;
+  width: 90%;
+  background-color: $colorWhite;
+  border-radius: 5px;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+}
+.input-form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.from-magin {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.form-span {
+  margin: 10px 0px 0 20px;
+  font-size: 18px;
+}
+.row-margin-0 {
+  margin: 0px !important;
+}
+.padding-0 {
+  padding: 0px !important;
+}
+.thanks-h2 {
+  color: $colorWhite;
+}
+.bottom-shadow {
+  height: 100px;
+  background-color: $colorWhite;
+  box-shadow: 0px 21px 41px 12px $colorWhite;
+}
+.thanks-p {
+  font-size: 20px;
+  padding: 15px 15px 0px 15px;
+  color: $theamColor;
+}
+
+.bottom-div {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  margin: 0px !important;
+}
+
+.margin50 {
+  margin-top: 50px;
+}
+.home-body {
+  // background-color: $homeBackgroundColor;
+  background-color: 'white';
+}
+
+.express-red-back {
+  background-image: url('../assets/images/red_bottom_curve.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vw;
+}
+
+.express-green-back {
+  background-image: url('../assets/images/green_bottom_curve.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vw;
+}

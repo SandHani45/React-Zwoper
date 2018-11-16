@@ -1,0 +1,37 @@
+.input-auth {
+    border: 0px;
+    padding-left: 15px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 2px;
+    color: black;
+    border-radius:0 !important;
+    box-shadow: none !important;
+}
+
+.input-div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    padding:10px 10px;
+}
+.keywordTextbox{
+    margin: 20px 0 10px;
+    clear: both;
+    border: 1px solid #EDEAEA;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.keywordTextbox .input-auth{
+    border:none;
+    font-size: 13px;
+    color: #A8A8A8;
+    margin: 0;
+    height: 44px;
+    padding-right: 50px;
+}
+.keywordTextbox  img{
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}

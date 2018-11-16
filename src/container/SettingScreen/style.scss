@@ -1,0 +1,37 @@
+.list-title{
+    color:#163D56;
+    text-align: left;
+    font-weight: 600;
+    font-size: 19px;
+    margin:30px 0;
+    padding: 0 15px;
+}
+.settingScreen{
+    padding: 0 10px;
+}
+.setScreenList{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}   
+.setScreenList li{
+    border-top: 1px solid  rgba(53,58,80, 0.3);
+    font-size: 16px;
+    color: #353A50;
+    padding: 20px 15px;
+    position: relative;
+}
+.setScreenList li:last-child{
+    border-bottom: 1px solid  rgba(53,58,80, 0.3);
+}
+.setArrow{
+    margin-top: 5px;
+}
+.setScreenList .switch{
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+.withOutBorder li:first-child{
+    border-top: 0px solid  rgba(53,58,80, 0.3);
+}

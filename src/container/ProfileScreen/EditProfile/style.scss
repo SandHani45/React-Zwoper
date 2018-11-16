@@ -1,0 +1,34 @@
+.uploadImage {
+  margin-top: 20px;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.uploadImageOverlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 105px;
+    background-color: rgba(22,61,86,0.5);
+}
+input[type="file"] {
+    display: none;
+}
+.editTextarea{
+    border-radius: 15px;
+    height: 154px;
+    resize: none;
+    padding: 20px;
+    width: 100%;
+    border:1px solid rgba(112,112,112,0.3);
+}
+.paddingBottom0{
+    padding-bottom: 0;
+}

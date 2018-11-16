@@ -1,0 +1,63 @@
+$theamColor: #59BE6C;
+
+
+.toHome{
+    .row:nth-child(1){
+        height:30vh;
+    }
+    .row:nth-child(2){
+        height:70vh;
+        background-color: $theamColor; 
+    }
+    .curve-design {
+        .col-md-12{
+            position: absolute;
+            z-index: 999;
+            top: 15em;
+        }
+        span{
+            width: 50vh;
+            background: #299346;
+            height: 65vh;
+            position: absolute;
+            border-radius: 68% 165%;
+            left: 2px;
+            top: 130px;
+            transform: rotate(120deg) scale(1.6);
+        } 
+    
+    }
+}
+
+.vrtl-line-1 > div:nth-child(1){
+    border-left: 1px solid #fff;
+    position: absolute;
+    height: 70px;
+    left: 45px;
+    top: -20px;
+}
+
+.vrtl-line-1  div:nth-child(2) > span{
+    color: white;
+    width: 105px;
+    display: block;
+    top: 55px;
+    position: absolute;
+    left:10px;
+}
+
+.vrtl-line-2{
+    border-left: 1px solid #fff;
+    position: absolute;
+    height: 70px;
+    left: 95px;
+    top: -20px;
+}
+
+.tuto-text-2{
+    color: white;
+    width: 105px;
+    display: block;
+    top: 55px;
+    position: absolute;
+}

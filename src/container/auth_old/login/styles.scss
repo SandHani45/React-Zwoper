@@ -1,0 +1,45 @@
+$theamColor: #59BE6C;
+$shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+$font-size: 18px;
+$colorWhite: #FFF;
+$font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+.name-info{
+    font-size: 20px;
+    font-weight: bold;
+    color:$colorWhite;
+}
+
+.name-info-row{
+    margin: 10px;
+}
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.input-container-card {
+    box-shadow: $shadow;
+    transition: 0.3s;
+    width: 90%;
+    background-color:$colorWhite;
+    border-radius: 5px;
+}
+
+.div-center{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.input-form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.from-magin{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.form-span {
+    margin: 10px 0px 0 20px;
+    font-size: 18px;
+}

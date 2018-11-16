@@ -1,0 +1,251 @@
+$theamColor : #59BE6C;
+$shadow     : 0 4px 8px 0 rgba(0,0,0,0.2);
+$font-size  : 18px;
+$colorWhite : #FFF;
+$font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+//*********************  new CSS start ********************/
+
+img{
+    width:100%;
+}
+.padd-marg-0{
+    padding :   0px;
+    margin  :   0px;
+    background-color: $theamColor;
+        *{
+            padding :   0px;
+            margin  :   0px;
+        }
+        .row:nth-child(3) > .col-md-12{
+            position: absolute;
+            bottom: 10px;
+            padding: 10px;
+        }
+    }
+
+.clouds{
+    position: relative;
+    height: 160px;
+    box-shadow: 0px 56px 30px 16px $colorWhite;
+    &>img{
+        transform:scale(1.8);
+        margin-top:20%;
+
+    }
+
+    .text-overlay{
+        position: absolute;
+        top:60px;
+        img{
+            // transform:scale(.15);
+            width: 45px;
+            height:45px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+      
+    
+        }
+    }
+    
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*********************  new CSS  end ********************/
+
+
+
+
+
+
+
+// .name-info{
+//     font-size: 20px;
+//     font-weight: bold;
+//     color:$colorWhite;
+// }
+
+// .name-info-row{
+//     margin: 10px;
+// }
+// .align-right{
+//     display: flex;
+//     justify-content: flex-end;
+// }
+// .input-container-card {
+//     box-shadow: $shadow;
+//     transition: 0.3s;
+//     width: 90%;
+//     background-color:$colorWhite;
+//     border-radius: 5px;
+// }
+
+// .div-center{
+//     display: flex;
+//     justify-content: center;
+// }
+// .input-form {
+//     margin-left: 10px;
+//     margin-right: 10px;
+// }
+
+// .from-magin{
+//     margin-top: 20px;
+//     margin-bottom: 30px;
+// }
+// .form-span {
+//     margin: 10px 0px 0 20px;
+//     font-size: 18px;
+// }
+// .row-margin-0{
+//     margin: 0px !important;
+// }
+// .padding-0{
+//     padding: 0px !important;
+// }
+// .thanks-h2{
+//     color: $colorWhite
+// }
+// .bottom-shadow{
+//     height: 100px;
+//     background-color: $colorWhite;
+//     box-shadow: 0px 21px 41px 12px $colorWhite;
+// }
+// .thanks-p{
+//     font-size: 20px;
+//     padding:15px 15px 0px 15px;
+//     color: $theamColor
+// }
+
+// .prima-h2{
+//     color: $theamColor;
+//     text-align: center;
+//     margin-top:50px;
+// }
+
+// .margin-top-50{
+//     margin-top: 50px;
+// }
+// .margin-top-20{
+//     margin-top: 20px;
+// }
+
+// .bottom-div{
+//     position: absolute;
+//     width: 100%;
+//     bottom: 50px;
+//     margin: 0px !important;
+// }
+
+
+
+// .clouds{
+//     *{
+//         float:left;
+//     }
+   
+//     .clouds-1{
+//         color:white;
+//         width:100px;
+//         height:100px;
+//         border-top-left-radius: 100px;
+//         border-top-right-radius: 100px;
+//         background-color: white;
+//         margin-left:-20px;
+//         margin-top:50px;
+//     }
+//     .clouds-2{
+//         color:white;
+//         width:180px;
+//         height:140px;
+//         border-top-left-radius: 200px;
+//         border-top-right-radius: 200px;
+//         background-color: white;
+//         margin-left:-50px;
+//         margin-top:10px;
+//     }
+//     .clouds-3{
+//         color:white;
+//         width:100px;
+//         height:100px;
+//         border-top-left-radius: 100px;
+//         border-top-right-radius: 100px;
+//         background-color: white;
+//         margin-left:-50px;
+//         margin-top:20px;
+//     }
+//     .clouds-4{
+//         color:white;
+//         width:100px;
+//         height:100px;
+//         border-top-left-radius: 100px;
+//         border-top-right-radius: 100px;
+//         background-color: white;
+//         margin-left:-50px;
+//         margin-top:50px;
+//     }
+//     .clouds-5{
+       
+//         color:white;
+//         width:180px;
+//         height:130px;
+//         border-top-left-radius: 200px;
+//         border-top-right-radius: 200px;
+//         background-color: white;
+//         margin-left:200px;
+//         margin-top:-130px;
+//     }
+// }
+
+
+

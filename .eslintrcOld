@@ -1,0 +1,47 @@
+{
+  "extends": "airbnb",
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": "warn",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "no-unused-vars": "off",
+    "no-var": "warn",
+    "eol-last": "off",
+    "react/jsx-no-bind": [
+      0,
+      {
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+        "allowArrowFunctions": false,
+        "allowFunctions": false,
+        "allowBind": false
+      }
+    ],
+    "operator-linebreak": "off",
+    "no-use-before-define": "warn",
+    "arrow-parens": [
+      "error",
+      "always"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+.timingScreen{
+    padding:30px;
+}
+.timingTtile{
+    font-size:18px;
+    font-weight:400;
+    color:#163D56;
+    clear:both;
+    margin-bottom:50px;
+}
+.timingTtile > img{
+    margin-right:20px
+}
+.timingUiInner{
+    border-bottom: 1px solid rgba(112, 114,115,0.2);
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+.timingUiRight{
+    padding-left: 55px;
+    color: #163D56;
+}
+.timingDate{
+ font-size: 12px;
+ font-weight: 400;
+ margin-right: 15px;
+}
+.timingUserName{
+  font-size: 12px;
+  font-weight: 600;  
+}
+.timingHour{
+    margin-top: 3px;
+}
+.timingStatus{
+    color: #707273;
+    font-size: 12px;
+}
+
+@media (max-width: 360px) { 
+    .timingUiRight{
+        padding-left: 40px;
+    }
+}

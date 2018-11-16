@@ -1,0 +1,41 @@
+export default {
+  clap        : require('../assets/images/clap.png'),
+  cloud       : require('../assets/images/cloud.svg'),
+  infoIcon    : require('../assets/images/info-icon.svg'),
+  avtarImage  : require('../assets/images/avatar.png'),
+  background  : require('../assets/images/background.png'),
+
+
+  //Profile Screen
+  profileAvatar: require('../assets/images/profile-avatar.svg'),
+  rateYellow: require('../assets/images/rate-yellow.svg'),
+  rateLightYellow: require('../assets/images/rate-yellow-light.svg'),
+
+  rateRed: require('../assets/images/rate-red.svg'),
+  rateGreen : require('../assets/images/rate-green.svg'),
+  otherUser : require('../assets/images/other-user-profile.svg'),
+
+  // tutorial Screen
+  logo        : require('../assets/icons/logo.svg'),
+  common_back : require('../assets/icons/common_back.svg'),
+  decor_buildings: require('../assets/icons/decor_buildings.svg'),
+  backIcon    : require('../assets/icons/backIcon.svg'),
+
+<<<<<<< HEAD
+  carousel_1  : require('../assets/icons/carouse_img_1.svg'),
+  carousel_2  : require('../assets/icons/carouse_img_2.svg'),
+  carousel_3  : require('../assets/icons/carouse_img_3.svg'),
+  carousel_4  : require('../assets/icons/carouse_img_4.svg'),
+  carousel_5  : require('../assets/icons/carouse_img_5.svg'),
+
+  //Auth
+  logo_white  : require('../assets/icons/logo_white.svg'),
+=======
+  carousel_1: require('../assets/icons/carouse_img_1.svg'),
+  carousel_2: require('../assets/icons/carouse_img_2.svg'),
+  carousel_3: require('../assets/icons/carouse_img_3.svg'),
+  carousel_4: require('../assets/icons/carouse_img_4.svg'),
+  carousel_5: require('../assets/icons/carouse_img_5.svg'),
+
+>>>>>>> origin/user_profile
+};

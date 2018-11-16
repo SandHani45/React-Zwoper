@@ -1,0 +1,69 @@
+$theamColor: #59BE6C;
+$theamLight: #91d49d;
+$font-size: 18px;
+$colorWhite: #FFF;
+$colorGray:lightgray;
+
+@mixin btn($background, $color, $fontSize){
+    background-color: $background;
+    border-width: 1px;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+    border-color:$theamColor $theamColor;
+    color: $color;
+    font-size: $fontSize;
+    box-shadow: 0px 2px 4px 4px grey;
+    outline: none;
+}
+
+.btn-selct{
+    @include btn($colorWhite, $theamColor, $font-size);
+}
+
+.btn-selected{
+    @include btn($theamColor, $colorWhite, $font-size);
+}
+
+.btn-selected:hover{
+    background-color:$theamLight;
+}
+
+.btn-selct:hover{
+    color: $colorWhite;
+    background-color: $theamColor;
+}
+
+.btn-submit{
+    width: 100%;
+    border: 0px;
+    font-weight: 400;
+    @include btn($theamColor, $colorWhite, $font-size)
+}
+
+.btn-submit:hover{
+    background-color:$theamLight;
+}
+
+.btn-submit:disabled{
+    background-color: $colorGray;
+}
+
+.btn-white{
+    width: 100%;
+    border: 0px;
+    font-weight: 400;
+    background-color: #eee;
+    border-width: 1px;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+    border-color: #59BE6C #59BE6C;
+    color: #59be6c;
+    font-size: 18px;
+    box-shadow:0px 2px 3px -1px grey;
+    outline: none;
+}
+.btn-div{
+    display:inline-block;
+}
